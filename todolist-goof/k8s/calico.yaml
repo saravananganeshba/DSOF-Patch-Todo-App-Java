@@ -4107,6 +4107,7 @@ spec:
               name: cni-bin-dir
           securityContext:
             privileged: false
+            allowPrivilegeEscalation: false
         # This container installs the CNI binaries
         # and CNI network config file on each node.
         - name: install-cni

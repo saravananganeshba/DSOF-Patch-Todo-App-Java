@@ -4,7 +4,7 @@
 
   <groupId>com.unboundid</groupId>
   <artifactId>unboundid-ldapsdk</artifactId>
-  <version>3.1.1</version>
+  <version>4.0.5</version>
   <packaging>jar</packaging>
 
   <name>Java Goof :: Log4Shell Goof :: Log4Shell Server</name>

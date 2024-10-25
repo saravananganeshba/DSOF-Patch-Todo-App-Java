@@ -4063,7 +4063,7 @@ spec:
     spec:
       nodeSelector:
         kubernetes.io/os: linux
-      hostNetwork: true
+      hostNetwork: false
       tolerations:
         # Make sure calico-node gets scheduled on all nodes.
         - effect: NoSchedule
